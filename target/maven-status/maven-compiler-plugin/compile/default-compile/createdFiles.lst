@@ -1,7 +1,7 @@
 co\epvtecnologia\demo01\UtilNumPrimos$Validator.class
-co\epvtecnologia\demo01\ProductoModel$Builder.class
-co\epvtecnologia\demo01\ProductoModel.class
-co\epvtecnologia\demo01\FrmCliente.class
+co\epvtecnologia\demo01\models\ProductoModel$Builder.class
 co\epvtecnologia\demo01\Demo01.class
+co\epvtecnologia\demo01\models\ProductoModel.class
 co\epvtecnologia\demo01\UtilNumPrimos.class
+co\epvtecnologia\demo01\formularios\FrmCliente.class
 co\epvtecnologia\demo01\ServiceWSDL.class
