@@ -8,29 +8,23 @@ package co.epvtecnologia.demo01.util;
  *
  * @author usuario
  */
-public class UtilNumPrimos {
+public  class UtilNumPrimos {
     
     
-
-    public static class Validator {
-        private static int numero;
-        static{
-          numero=10;
-        }
-
+public static boolean validarPrimo(int numero){
+   if(numero ==1 || numero ==2)
+       return true;
+   
+   if(numero == 3 || numero == 5 || numero  ==  7 || numero  == 11 || numero  == 17 || numero  == 19)
+       return true;
+    
+    if(numero % 2 ==0 || numero % 3 ==0 || numero % 5 ==0 || numero % 7 ==  0 || numero % 11 == 0 || numero % 13 == 0 || numero % 17 == 0 || numero % 19 == 0)
+        return false;
+    
+    return true;
         
-        
+ 
 
-        public static void setNumero(int numero) {
-            Validator.numero = numero;
-        }
-        
-        public int getNumero(){
-        
-         return numero;
-        
-        }
-
-    }
-
+}
+    
 }
