@@ -4,6 +4,9 @@
  */
 package co.epvtecnologia.demo01.formularios;
 
+import java.awt.Image;
+import javax.swing.ImageIcon;
+
 /**
  *
  * @author usuario
@@ -17,6 +20,14 @@ public class FrmCliente extends javax.swing.JFrame {
      */
     public FrmCliente() {
         initComponents();
+             // Colocar el ícono
+        try {
+            Image icon = new ImageIcon(getClass().getResource("/img/torre-de-pc.png")).getImage();
+            this.setIconImage(icon);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        
     }
 
     /**
